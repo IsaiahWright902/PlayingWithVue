@@ -4,6 +4,7 @@
       <img :src="`https://image.tmdb.org/t/p/w500/${movieData.poster_path}`" class="card-img-top" />
       <div class="card-body">
         <h5 class="card-title">{{movieData.original_title}}</h5>
+        <p>{{movieData.overview}}</p>
       </div>
     </div>
   </div>
